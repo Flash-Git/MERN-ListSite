@@ -35,6 +35,18 @@ class ItemModal extends Component {
     this.toggle();
   };
 
+
+  componentDidUpdate() {
+    setTimeout(() => {
+      if(this.refs.testInput!==undefined){
+        console.log("small ree");
+        this.refs.testInput.focus();
+        console.log("big ree");
+      }
+    }, 5000);
+    
+  }
+
 	render() {
 		return(
 			<div>
@@ -66,6 +78,8 @@ class ItemModal extends Component {
                   id="item"
                   placeholder="Add shopping item"
                   onChange={this.onChange}
+                  ref="testInput"
+                  autoFocus = {false}
                 />
                 <Button
                   color="dark"

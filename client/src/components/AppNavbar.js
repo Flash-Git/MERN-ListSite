@@ -20,7 +20,7 @@ class AppNavbar extends Component {
       isOpen: !this.state.isOpen
     });
   }
-  
+
   render() {
     return (
       <div>
@@ -31,7 +31,13 @@ class AppNavbar extends Component {
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
                 <NavItem>
-                  <NavLink href="https://google.com">Google</NavLink> 
+                  <NavLink href="https://github.com/flash-git">Github</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink href="https://twitter.com/FlashyQpt">Twitter</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink href="https://reddit.com/u/FlashyQpt">Reddit</NavLink>
                 </NavItem>
               </Nav>
             </Collapse>
@@ -41,6 +47,5 @@ class AppNavbar extends Component {
     );
   }
 }
-
 
 export default AppNavbar;
