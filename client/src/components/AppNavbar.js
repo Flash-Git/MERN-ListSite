@@ -23,10 +23,10 @@ class AppNavbar extends Component {
 
   render() {
     return (
-      <div>
+      <div class="sticky-nav">
         <Navbar color="dark" dark expand="sm" className="mn-5">
           <Container>
-            <NavbarBrand href="/">Shopping List</NavbarBrand>
+            <NavbarBrand href="/">List</NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>

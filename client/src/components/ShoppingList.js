@@ -18,7 +18,9 @@ class ShoppingList extends Component {
   render() {
     const { items } = this.props.item;
       return(
-      <Container>
+      <Container 
+        style={{ marginBottom: "1rem", marginTop: "1rem"}}
+      >
         <ListGroup>
           <TransitionGroup className="shopping-list">
             {items.map(({ _id, name }) => (

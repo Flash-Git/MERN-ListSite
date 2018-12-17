@@ -6,6 +6,7 @@ body {
   margin-right: 0.5rem;
 }
 
+/*Fade animation on new item*/
 .fade-enter {
   opacity: 0.01;
 }
@@ -22,4 +23,17 @@ body {
 .fade-exit-active {
   opacity: 0.01;
   transition: opacity 1000ms ease-in;
+}
+
+/*Navbar as header*/
+.sticky-nav {
+	position: sticky;
+	top: 0;
+}
+
+/*Navbar as footer*/
+.footer-nav {
+	position: fixed;
+	bottom: 0px;
+	width: 100%
 }

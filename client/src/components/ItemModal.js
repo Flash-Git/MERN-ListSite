@@ -35,24 +35,12 @@ class ItemModal extends Component {
     this.toggle();
   };
 
-
-  componentDidUpdate() {
-    setTimeout(() => {
-      if(this.refs.testInput!==undefined){
-        console.log("small ree");
-        this.refs.testInput.focus();
-        console.log("big ree");
-      }
-    }, 5000);
-    
-  }
-
 	render() {
 		return(
 			<div>
 				<Button 
           color="dark"
-          style={{ marginBottom: "1rem", marginTop: "1rem"}}
+          style={{marginTop: "1rem"}}
           onClick={this.toggle}
         >
           Add Item
@@ -64,7 +52,7 @@ class ItemModal extends Component {
           <ModalHeader
             toggle={this.toggle}
           >
-            Add To Shopping List
+            Add To List
           </ModalHeader>
           <ModalBody>
             <Form onSubmit={this.onSubmit}>
@@ -76,10 +64,8 @@ class ItemModal extends Component {
                   type="text"
                   name="name"
                   id="item"
-                  placeholder="Add shopping item"
+                  placeholder="Add item"
                   onChange={this.onChange}
-                  ref="testInput"
-                  autoFocus = {false}
                 />
                 <Button
                   color="dark"
