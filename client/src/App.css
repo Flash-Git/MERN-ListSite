@@ -6,27 +6,6 @@ body {
 }
 
 .app {
-
-}
-
-/*Navbar as header*/
-.sticky-nav {
-	position: sticky;
-	top: 0;
-  z-index: 1;/*Hacky and only partially successful stopping overlap*/
-}
-
-.content {
-}
-
-/*Hacky and only partially successful stopping overlap*/
-.listy {
-  z-index: -1;
-}
-
-/*Navbar as footer - fail to stick to bottom*/
-.footer-nav {
-  bottom: 0;
 }
 
 .remove-btn {

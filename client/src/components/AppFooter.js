@@ -11,10 +11,9 @@ import {
 class AppFooter extends Component{
   render() {
     return(
-      <div className="footer-nav">  
-        <Navbar color="dark">
+        <Navbar dark color="dark">
           <Container>
-            <NavbarBrand>Footer</NavbarBrand>
+            <NavbarBrand href="/">Footer</NavbarBrand>
             <Nav className="ml-auto" navbar>
               <NavItem>
                 <NavLink href="https://github.com/flash-git">Github</NavLink>
@@ -25,7 +24,6 @@ class AppFooter extends Component{
             </Nav>
           </Container>
         </Navbar>
-      </div>
     );
   }
 }

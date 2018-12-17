@@ -16,13 +16,11 @@ class App extends Component {
     return (
       <Provider store={store}>
         <div className="App">
-          <div className="content">
-            <AppNavbar />
-            <Container>
-              <ItemModal />
-              <ShoppingList />
-            </Container>
-          </div>
+          <AppNavbar />
+          <Container>
+            <ItemModal />
+            <ShoppingList />
+          </Container>
           <AppFooter />
         </div>
       </Provider>
