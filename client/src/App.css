@@ -1,29 +1,33 @@
-html, body {
-  height: 100%;
+html {
 }
 
 body {
   background-color: #202020;
-  display: flex;
-  flex-direction: column;
+}
+
+.app {
+
 }
 
 /*Navbar as header*/
 .sticky-nav {
 	position: sticky;
 	top: 0;
+  z-index: 1;/*Hacky and only partially successful stopping overlap*/
 }
 
 .content {
-	flex: 1 0 auto;
 }
 
-/*Navbar as footer*/
+/*Hacky and only partially successful stopping overlap*/
+.listy {
+  z-index: -1;
+}
+
+/*Navbar as footer - fail to stick to bottom*/
 .footer-nav {
-	flex-shrink: 0;
-	margin-top: auto;
+  bottom: 0;
 }
-
 
 .remove-btn {
   margin-right: 0.5rem;
