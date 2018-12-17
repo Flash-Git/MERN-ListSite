@@ -11,7 +11,7 @@ import {
 class AppFooter extends Component{
   render() {
     return(
-      <div class="footer-nav">  
+      <div className="footer-nav">  
         <Navbar color="dark">
           <Container>
             <NavbarBrand>Footer</NavbarBrand>

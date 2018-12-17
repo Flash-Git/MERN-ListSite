@@ -23,7 +23,7 @@ class AppNavbar extends Component {
 
   render() {
     return (
-      <div class="sticky-nav">
+      <div className="sticky-nav">
         <Navbar color="dark" dark expand="sm" className="mn-5">
           <Container>
             <NavbarBrand href="/">List</NavbarBrand>
