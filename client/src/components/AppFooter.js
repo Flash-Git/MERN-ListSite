@@ -11,7 +11,7 @@ import {
 class AppFooter extends Component{
   render() {
     return(
-        <Navbar dark color="dark">
+        <Navbar dark color="dark" className="fixed-bottom">
           <Container>
             <NavbarBrand href="/">Footer</NavbarBrand>
             <Nav className="ml-auto" navbar>

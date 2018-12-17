@@ -10,17 +10,13 @@ body {
   height: 100%;
 }
 
-.app {
+.App {
   display: block;
-  margin-bottom: 94.58px;
+  margin-bottom: 110.58px;/*hardcoded size of footer+16*/
 }
 
 .footer {
-  display: block;
-  position:relative;
-  width:100%;
-  bottom:0;
-  height:94.58px;
+
 }
 
 
