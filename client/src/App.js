@@ -21,7 +21,9 @@ class App extends Component {
             <ItemModal />
             <ShoppingList />
           </Container>
-          <AppFooter />
+          <footer className="footer">
+            <AppFooter />
+          </footer>
         </div>
       </Provider>
     );
