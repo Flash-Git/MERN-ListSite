@@ -11,8 +11,10 @@ body {
 }
 
 .App {
-  display: block;
-  margin-bottom: 110.58px;/*hardcoded size of footer+16*/
+}
+
+.main {
+  min-height: calc(100vh - 94.58px);
 }
 
 .footer {

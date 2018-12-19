@@ -19,7 +19,7 @@ class ShoppingList extends Component {
     const { items } = this.props.item;
     return(
       <Container 
-        style={{ marginBottom: "1rem", marginTop: "1rem"}}
+        style={{ paddingBottom: "1rem", paddingTop: "1rem"}}
       >
         <ListGroup>
           <TransitionGroup className="shopping-list">
