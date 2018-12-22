@@ -1,3 +1,7 @@
 Development of my personal site.
 
-Check the commit history.
+Includes Client and Server.
+
+Started with the MERN stack(MongoDB, Express, React, Node).
+
+Currently using bootstrap 4.
